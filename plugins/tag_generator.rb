@@ -1,25 +1,19 @@
 # encoding: utf-8
 #
-# Jekyll tag page generator.
+# Octopress tag page generator
 #
-# Version: 0.2
+# Version: 0.3
 #
 # Copyright (c) 2012 Robby Edwards, http://robbyedwards.com/
 # Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php)
 #
-# Based upon the Jekyll category page generator plugin by Dave Perrett, http://recursive-design.com/
+# Octopress plugin to generate tag pages.
+# Based upon the jekyll category page generator plugin by Dave Perrett.
 #
 #
 # A generator that creates tag pages for jekyll sites.
 #
-# Included filters :
-# - tag_links:      Outputs the list of tags as comma-separated <a> links.
-# - date_to_html_string: Outputs the post.date as formatted html, with hooks for CSS styling.
-#
-# Available _config.yml settings :
-# - tag_dir:          The subfolder to build tag pages in (default is 'tags').
-# - tag_title_prefix: The string used before the tag name in the page title (default is
-#                          'Tag: ').
+# See README for installation and usage instructions.
 
 module Jekyll
 
