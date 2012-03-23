@@ -14,13 +14,13 @@ Put `tag_generator.rb` in the `/plugins` folder. Then add the `tag_index.html` f
 
 Included filters :
 
-- tag_links:      Outputs the list of tags as comma-separated <a> links.
-- date_to_html_string: Outputs the post.date as formatted html, with hooks for CSS styling.
+- `tag_links`:           Outputs the list of tags as comma-separated `<a>` links.
+- `date_to_html_string`: Outputs the `post.date` as formatted html, with hooks for CSS styling.
 
 Available _config.yml settings :
 
-- tag_dir:          The subfolder to build tag pages in (default is `tags`).
-- tag_title_prefix: The string used before the tag name in the page title (default is `Tag: `).
+- `tag_dir`:          The subfolder to build tag pages in (default is `tags`).
+- `tag_title_prefix`: The string used before the tag name in the page title (default is `Tag: `).
 
 
 ## License #
