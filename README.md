@@ -2,7 +2,7 @@
 
 Octopress plugin to generate tag pages. Based upon the jekyll category page generator plugin by Dave Perrett.
 
-Version: 0.3
+Version: 0.4
 
 
 ## Getting Started #
